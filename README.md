@@ -34,3 +34,6 @@ Note: The initial compilation can take a bit longer due to libraries.
 Tested by 42 students (125%) and mention as an outstanding project 🎉. 
 
 ## ✨ Illustration
+<img width="1648" alt="classic_bonus" src="https://github.com/ulyssegerkens/so_long/assets/99326326/f6c02a1b-eb9b-45b5-a989-c05ccb4dd1b8">
+<img width="1792" alt="bigest" src="https://github.com/ulyssegerkens/so_long/assets/99326326/a0b0faa2-349b-469b-b3a4-746c3e9f19b2">
+<img width="1813" alt="game_over" src="https://github.com/ulyssegerkens/so_long/assets/99326326/551fbc9f-5567-4d6b-99ff-0d39561dba12">
