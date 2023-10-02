@@ -23,12 +23,13 @@ Note: The initial compilation can take a bit longer due to libraries.
 - Implementation of static enemy patrols.
 - End-game screens for both victory ("You win") and defeat ("Game Over").
 - Dynamic tile sizing based on map dimensions.
-- Can parse any size of map, but large maps that cannot be displayed adequately (e.g., 420x190) will trigger a `Map is too large for display` error. The parsing can be seen by including a invalid block in the same map: the `Invalid block` error will be properly raised (because parsing is done before displaying).
+- Can parse any size of map, but large maps that cannot be displayed adequately (e.g., 420x190) will trigger a `Map is too large for display` error. The parsing can be seen by including a invalid block in the same map: the `Invalid block` error will be properly raised (because parsing and checking are done before displaying).
 
 ## 🛠️ Implementation details
 - The bonus and mandatory components were developed concurrently. To complies with 42 correction rules, `make bonus` compile the same code except two line that recognize the enemy block as legit. It output the executable `./so_long_bonus`.
 - Every allocated pointer is checked and stored by `track_allocation()`. In case of error, the allocated pointer list is freed and the game is stopped.
 - To enhance code clarity, a [facade pattern](https://refactoring.guru/design-patterns/facade) is employed when interfacing with MLX42.
+- The existence of a valid path is checked by a Depth-first search algorithm.
 
 ## 📋 Testing
 Tested by 42 students (125%) and mention as an outstanding project 🎉. 
