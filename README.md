@@ -32,7 +32,7 @@ Note: The initial compilation can take a bit longer due to libraries.
 - The existence of a valid path is checked by a Depth-first search algorithm.
 
 ## 📋 Testing
-Tested by 42 students (125%) and mention as an outstanding project 🎉. 
+Evaluated by 42 students (125%) and mention as an outstanding project 🎉. 
 
 ## ✨ Illustrations
 <img width="1648" alt="classic_bonus" src="https://github.com/ulyssegerkens/so_long/assets/99326326/f6c02a1b-eb9b-45b5-a989-c05ccb4dd1b8">
