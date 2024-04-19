@@ -1,6 +1,9 @@
 <h1 align="center">
 	So Long
 </h1>
+<p align="center">
+	This project helped you? Give it a 🌟!
+</p>
 
 ## 🕹️ General information
 Version: 2.3. Bonus included.</br>
