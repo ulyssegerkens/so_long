@@ -1,5 +1,5 @@
 <h1 align="center">
-	So Long
+	A Minimalist So Long
 </h1>
 <p align="center">
 	This project helped you? Give it a 🌟!
