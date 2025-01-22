@@ -6,7 +6,7 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 00:19:37 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/09/03 17:23:43 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 18:29:53 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,14 @@ void	cut_nl(char *line)
 		line[len - 1] = '\0';
 }
 
-void	line_to_grid(t_block **grid, char *line, int raw)
+void	line_to_grid(t_block **grid, char *line, int row)
 {
 	int	i;
 
 	i = 0;
 	while (line[i])
 	{
-		grid[raw][i] = char_to_block(line[i]);
+		grid[row][i] = char_to_block(line[i]);
 		i++;
 	}
 }

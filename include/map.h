@@ -6,7 +6,7 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 00:36:38 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/09/02 00:46:42 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 18:30:06 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	map_file_to_map_grid(t_data *d, t_map *map, char *map_path);
 
 // import_map_utils.c
 void	cut_nl(char *line);
-void	line_to_grid(t_block **grid, char *line, int raw);
+void	line_to_grid(t_block **grid, char *line, int row);
 t_block	char_to_block(char c);
 void	reading_error(t_data *d, char *description, int fd);
 
